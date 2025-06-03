@@ -1,0 +1,9 @@
+{
+  "files.associations": {
+    "*.html": "html",
+    "*.sass": "sass",
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  }
+}
