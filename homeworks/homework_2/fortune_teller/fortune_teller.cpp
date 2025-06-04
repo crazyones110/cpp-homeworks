@@ -43,14 +43,14 @@ int main()
     const std::size_t final_adj_index{name.length() % adjectives.size()};
     const std::size_t ending_index{name.length() % endings.size()};
 
-    // cout << name << ", the " << adjectives.at(final_adj_index) << ' '
-    // << seasons.at(season) << " that " << endings.at(ending_index) << endl;
-    cout << std::format("{}, the {} {} that {}",
-      name,
-      adjectives.at(final_adj_index),
-      seasons.at(season),
-      endings.at(ending_index)
-    ) << endl;
+    cout << name << ", the " << adjectives.at(final_adj_index) << ' '
+    << seasons.at(season) << " that " << endings.at(ending_index) << endl;
+    // cout << std::format("{}, the {} {} that {}",
+    //   name,
+    //   adjectives.at(final_adj_index),
+    //   seasons.at(season),
+    //   endings.at(ending_index)
+    // ) << endl;
   }
 
   return 0;
