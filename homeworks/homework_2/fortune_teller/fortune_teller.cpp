@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <array>
 #include <map>
 using std::cin;
 using std::cout;
@@ -20,7 +21,7 @@ int main()
       "is not afraid of C++ error messages"};
 
   cout << "Welcome to the fortune teller program!" << endl;
-  cout << "Please enter your name: ";
+  cout << "Please enter your name:" << endl;
   string name{};
   cin >> name;
 
