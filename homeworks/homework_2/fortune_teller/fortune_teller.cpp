@@ -39,7 +39,7 @@ int main()
   const std::vector<string> adjectives{adj1, adj2};
 
   {
-    cout << "Here is your description:" << endl;
+    cout << "\nHere is your description:" << endl;
     const std::size_t final_adj_index{name.length() % adjectives.size()};
     const std::size_t ending_index{name.length() % endings.size()};
 
