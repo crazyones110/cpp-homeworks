@@ -4,6 +4,9 @@
     "*.sass": "sass",
     "*.cjson": "jsonc",
     "*.wxss": "css",
-    "*.wxs": "javascript"
+    "*.wxs": "javascript",
+    "ostream": "cpp",
+    "iostream": "cpp",
+    "format": "cpp"
   }
 }
